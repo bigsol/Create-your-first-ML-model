@@ -44,3 +44,9 @@ Next, the model uses the `optimizer` function to make another guess. Based on th
 The model repeats that for the number of epochs, which you'll see shortly.
 
 First, here's how to tell it to use `mean_squared_error` for the loss and stochastic gradient descent (`sgd`) for the optimizer. You don't need to understand the math for those yet, but you can see that they work!
+
+Over time, you'll learn the different and appropriate loss and optimizer functions for different scenarios.
+
+```
+model.compile(optimizer='sgd', loss='mean_squared_error')
+```
