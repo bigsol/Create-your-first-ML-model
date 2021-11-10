@@ -10,4 +10,4 @@ Create your first ML model
 
 <text>That's almost exactly how you would use code to train a model to spot the patterns in the data!</text>
 
-<text>That's almost exactly how you would use code to train a model to spot the patterns in the data!</text>
+<text>Now, look at the code to do it.</text>
