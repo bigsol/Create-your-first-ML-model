@@ -1089,4 +1089,6 @@ You might have thought 19, but it ended up being a little over. Why do you think
 
 Neural networks deal with probabilities, so it calculated that there is a very high probability that the relationship between X and Y is Y=2X-1, but it can't know for sure with only six data points. The result is very close to 19, but not necessarily 19.
 
+As you work with neural networks, you'll see that pattern recurring. You will almost always deal with probabilities, not certainties, and will do a little bit of coding to figure out what the result is based on the probabilities, particularly when it comes to classification.
+
 
