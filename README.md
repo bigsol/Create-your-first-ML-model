@@ -1073,6 +1073,7 @@ Epoch 499/500
 1/1 [==============================] - 0s 3ms/step - loss: 6.7084e-05
 Epoch 500/500
 1/1 [==============================] - 0s 2ms/step - loss: 6.5706e-05
+
 [[18.976349]]
 ```
 You probably don't need all 500 epochs and can experiment with different amounts. As you can see from the example, the loss is really small after only 50 epochs, so that might be enough!
