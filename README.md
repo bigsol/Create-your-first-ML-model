@@ -1073,8 +1073,6 @@ Epoch 499/500
 1/1 [==============================] - 0s 3ms/step - loss: 6.7084e-05
 Epoch 500/500
 1/1 [==============================] - 0s 2ms/step - loss: 6.5706e-05
-
-[[18.976349]]
 ```
 You probably don't need all 500 epochs and can experiment with different amounts. As you can see from the example, the loss is really small after only 50 epochs, so that might be enough!
 
@@ -1088,6 +1086,10 @@ print(model.predict([10.0]))
 You might have thought 19, but it ended up being a little over. Why do you think that is?
 
 Neural networks deal with probabilities, so it calculated that there is a very high probability that the relationship between X and Y is Y=2X-1, but it can't know for sure with only six data points. The result is very close to 19, but not necessarily 19.
+
+```
+[[18.976349]]
+```
 
 As you work with neural networks, you'll see that pattern recurring. You will almost always deal with probabilities, not certainties, and will do a little bit of coding to figure out what the result is based on the probabilities, particularly when it comes to classification.
 
