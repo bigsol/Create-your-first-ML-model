@@ -20,5 +20,10 @@ Create your first ML model
 
 <text>The framework for defining a neural network as a set of sequential layers is called keras, so import that, too.</text>
 
-![image](https://user-images.githubusercontent.com/51197053/141094598-942e8c90-c35e-4898-aebf-5fd3aac7e9ff.png)
+
+```
+import tensorflow as tf
+import numpy as np
+from tensorflow import keras
+```
 
