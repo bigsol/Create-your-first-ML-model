@@ -6,7 +6,7 @@ Create your first ML model
 ![image](https://user-images.githubusercontent.com/51197053/141204519-0a695037-06b9-4cf2-aa69-e31321b27980.png)
 
 
-<text>As you look at them, you might notice that the value of X is increasing by 1 as you read left to right and the corresponding value of Y is increasing by 2. You probably think that Y equals 2X plus or minus something. Then, you'd probably look at the 0 on X and see that Y is 1, and you'd come up with the relationship Y=2X-1.</text>
+<text>As you look at them, you might notice that the value of X is increasing by 1 as you read left to right and the corresponding value of Y is increasing by 2. You probably think that Y equals 2X plus or minus something. Then, you'd probably look at the 0 on X and see that Y is -1, and you'd come up with the relationship Y=2X-1.</text>
 
 <text>That's almost exactly how you would use code to train a model to spot the patterns in the data!</text>
 
