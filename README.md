@@ -1078,4 +1078,8 @@ Epoch 500/500
 ```
 You probably don't need all 500 epochs and can experiment with different amounts. As you can see from the example, the loss is really small after only 50 epochs, so that might be enough!
 
+### Use the model
+
+You have a model that has been trained to learn the relationship between X and Y. You can use the `model.predict` method to have it figure out the Y for a previously unknown X. For example, if X is 10, what do you think Y will be? Take a guess before you run the following code:
+
 
