@@ -60,3 +60,6 @@ A python library called NumPy provides lots of array type data structures to do 
 xs = np.array([-1.0, 0.0, 1.0, 2.0, 3.0, 4.0], dtype=float)
 ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)
 ```
+
+Now you have all the code you need to define the neural network. The next step is to train it to see if it can infer the patterns between those numbers and use them to create a model.
+
