@@ -36,3 +36,5 @@ model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
 Next, write the code to compile your neural network. When you do so, you need to specify two functions—a `loss` and an `optimizer`.
 
 In this example, you know that the relationship between the numbers is Y=2X-1.
+
+When the computer is trying to learn that, it makes a guess, maybe Y=10X-10. The loss function measures the guessed answers against the known correct answers and measures how well or badly it did.
