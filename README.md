@@ -13,3 +13,9 @@ Create your first ML model
 <text>Now, look at the code to do it.</text>
 
 <text>How would you train a neural network to do the equivalent task? Using data! By feeding it with a set of X's and a set of Y's, it should be able to figure out the relationship between them.</text>
+
+<text>Start with your imports. Here, you're importing TensorFlow and calling it tf for ease of use.</text>
+
+<text>Next, import a library called numpy, which represents your data as lists easily and quickly.</text>
+
+<text>The framework for defining a neural network as a set of sequential layers is called keras, so import that, too.</text>
