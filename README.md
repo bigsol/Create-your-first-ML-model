@@ -39,4 +39,4 @@ In this example, you know that the relationship between the numbers is Y=2X-1.
 
 When the computer is trying to learn that, it makes a guess, maybe Y=10X-10. The loss function measures the guessed answers against the known correct answers and measures how well or badly it did.
 
-Next, the model uses the `optimizer` function to make another guess. Based on the loss function's result, it tries to minimize the loss. At this point, maybe it will come up with something like Y=5X+5. While that's still pretty bad, it's closer to the correct result (the loss is lower).
+Next, the model uses the `optimizer` function to make another guess. Based on the loss function's result, it tries to minimize the loss. At this point, maybe it will come up with something like Y=5X-5. While that's still pretty bad, it's closer to the correct result (the loss is lower).
