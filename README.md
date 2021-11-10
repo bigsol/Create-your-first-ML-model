@@ -52,4 +52,4 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 ```
 #### Provide the data
 
-Next, feed some data. In this case, you take the six X and six Y variables from earlier. You can see that the relationship between those is that Y=2X-1, so where X is -1, Y is -2.
+Next, feed some data. In this case, you take the six X and six Y variables from earlier. You can see that the relationship between those is that Y=2X-1, so where X is -1, Y is -3.
