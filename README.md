@@ -1085,4 +1085,8 @@ You have a model that has been trained to learn the relationship between X and Y
 ```
 print(model.predict([10.0]))
 ```
+You might have thought 19, but it ended up being a little over. Why do you think that is?
+
+Neural networks deal with probabilities, so it calculated that there is a very high probability that the relationship between X and Y is Y=2X-1, but it can't know for sure with only six data points. The result is very close to 19, but not necessarily 19.
+
 
