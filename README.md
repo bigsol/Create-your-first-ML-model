@@ -9,3 +9,5 @@ Create your first ML model
 <text>As you look at them, you might notice that the value of X is increasing by 1 as you read left to right and the corresponding value of Y is increasing by 3. You probably think that Y equals 3X plus or minus something. Then, you'd probably look at the 0 on X and see that Y is 1, and you'd come up with the relationship Y=3X+1.</text>
 
 <text>That's almost exactly how you would use code to train a model to spot the patterns in the data!</text>
+
+<text>That's almost exactly how you would use code to train a model to spot the patterns in the data!</text>
