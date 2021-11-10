@@ -53,3 +53,10 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 #### Provide the data
 
 Next, feed some data. In this case, you take the six X and six Y variables from earlier. You can see that the relationship between those is that Y=2X-1, so where X is -1, Y is -3.
+
+A python library called NumPy provides lots of array type data structures to do this. Specify the values as an array in NumPy with np.array[].
+
+```
+xs = np.array([-1.0, 0.0, 1.0, 2.0, 3.0, 4.0], dtype=float)
+ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)
+```
