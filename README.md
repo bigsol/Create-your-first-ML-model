@@ -34,3 +34,5 @@ from tensorflow import keras
 model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
 ```
 Next, write the code to compile your neural network. When you do so, you need to specify two functions—a `loss` and an `optimizer`.
+
+In this example, you know that the relationship between the numbers is Y=2X-1.
