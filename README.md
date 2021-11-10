@@ -11,3 +11,5 @@ Create your first ML model
 <text>That's almost exactly how you would use code to train a model to spot the patterns in the data!</text>
 
 <text>Now, look at the code to do it.</text>
+
+<text>How would you train a neural network to do the equivalent task? Using data! By feeding it with a set of X's and a set of Y's, it should be able to figure out the relationship between them.</text>
