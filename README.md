@@ -26,4 +26,10 @@ import tensorflow as tf
 import numpy as np
 from tensorflow import keras
 ```
+#### Define and compile the neural network
 
+<text>Next, create the simplest possible neural network. It has one layer, that layer has one neuron, and the input shape to it is only one value.</text>
+
+```
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+```
