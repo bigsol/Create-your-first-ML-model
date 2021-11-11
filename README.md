@@ -1093,8 +1093,6 @@ Neural networks deal with probabilities, so it calculated that there is a very h
 
 As you work with neural networks, you'll see that pattern recurring. You will almost always deal with probabilities, not certainties, and will do a little bit of coding to figure out what the result is based on the probabilities, particularly when it comes to classification.
 
-Link to code:
-
 ### Python Code:
 ```
 import subprocess
