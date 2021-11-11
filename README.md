@@ -1095,3 +1095,37 @@ As you work with neural networks, you'll see that pattern recurring. You will al
 
 Link to code:
 https://bit.ly/3H4HwZ3
+
+Python Code:
+```
+import subprocess
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ["SM_FRAMEWORK"] = "tf.keras"
+
+try:
+    import tensorflow as tf
+except ImportError:
+    print("Please install Module ---> pip install tensorflow")
+    print(subprocess.check_output("pip install tensorflow", shell=True))
+
+try:
+    import numpy as np
+except ImportError:
+    print("Please install Module ---> pip install nump")
+    print(subprocess.check_output("pip install nump", shell=True))
+
+from tensorflow import keras
+
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+model.compile(optimizer='sgd', loss='mean_squared_error')
+
+xs = np.array([-1.0, 0.0, 1.0, 2.0, 3.0, 4.0], dtype=float)
+ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)
+
+model.fit(xs, ys, epochs=500)
+print("\n")
+print(model.predict([10.0]))
+```
+
