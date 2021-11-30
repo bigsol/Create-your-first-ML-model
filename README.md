@@ -1104,14 +1104,15 @@ os.environ["SM_FRAMEWORK"] = "tf.keras"
 try:
     import tensorflow as tf
 except ImportError:
-    print("Please install Module ---> pip install tensorflow")
-    print(subprocess.check_output("pip install tensorflow", shell=True))
+    print("Please Wait ... I am installing  The Module of tensorflow")
+    print(subprocess.check_output("pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.8.0-py3-none-any.whl", shell=True))
+    print(subprocess.check_output("pip install --upgrade tensorflow==2.0.0", shell=True))
 
 try:
     import numpy as np
 except ImportError:
-    print("Please install Module ---> pip install nump")
-    print(subprocess.check_output("pip install nump", shell=True))
+    print("Please Wait ... I am installing the Module of numpy")
+    print(subprocess.check_output("pip install numpy", shell=True))
 
 from tensorflow import keras
 
