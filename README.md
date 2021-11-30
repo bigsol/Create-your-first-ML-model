@@ -1081,7 +1081,7 @@ You probably don't need all 500 epochs and can experiment with different amounts
 You have a model that has been trained to learn the relationship between X and Y. You can use the `model.predict` method to have it figure out the Y for a previously unknown X. For example, if X is 10, what do you think Y will be? Take a guess before you run the following code:
 
 ```
-print(model.predict([10.0]))
+print(model.predict([8.0]))
 ```
 You might have thought 19, but it ended up being a little over. Why do you think that is?
 
