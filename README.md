@@ -1126,4 +1126,4 @@ model.fit(xs, ys, epochs=500)
 print("\n")
 print(model.predict([8.0]))
 ```
-https://colab.research.google.com/drive/1CBpVAhx3YkX28biY58CtkypH1CkUG2VV#scrollTo=kApZwlarxIWQ&line=33&uniqifier=1
+
